@@ -16,22 +16,13 @@ main {
 .logo {
     position: relative;
     color: #fff;
-    text-shadow: 0 0 50px rgb(255, 0, 0),
+    text-shadow: 0 0 50px rgb(255, 0, 0), 
                  0 0 100px rgb(255, 0, 0),
                  0 0 150px rgb(255, 0, 0),
                  0 0 200px rgb(255, 0, 0),
                  0 0 250px rgb(255, 0, 0);
     animation: anime 5s linear infinite;
 
-}
-
-@keyframes anime {
-    0% {
-        filter: hue-rotate(0deg);
-    }
-    100% {
-        filter: hue-rotate(360deg);
-    }
 }
 
 footer {
@@ -53,4 +44,15 @@ footer #html:hover {
 footer #css:hover {
     transition: 1s;
     color: #1166e8;
+}
+
+/* Animações */
+
+@keyframes anime {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
 }
