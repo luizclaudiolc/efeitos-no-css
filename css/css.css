@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+main {
     background: black;
     display: flex;
     align-items: center;
@@ -32,4 +32,25 @@ body {
     100% {
         filter: hue-rotate(360deg);
     }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: #fff;
+    font-size: 3em;
+    padding: 10px;
+}
+
+footer #html:hover {
+    transition: 1s;
+    color: #ec6231;
+    
+}
+
+footer #css:hover {
+    transition: 1s;
+    color: #1166e8;
 }
