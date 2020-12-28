@@ -1,4 +1,4 @@
-## Treinando CSS
+## Treinando CSS 🚀
 
 - Nesse pequeno projeto busquei conhecer e explorar animações via @keysframes, é incrivel o poder que css puro tem, somando isso várias bibliotecas e frameworks bacanas disponiveis.
 
